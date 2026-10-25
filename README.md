@@ -1,45 +1,69 @@
-﻿# Full Stack Task Manager — Week 3
+﻿# SkillNexis Week 4 — Full Stack Major Projects
 
-A full-stack task management application developed for the SkillNexis Full Stack Development Week 3 assignment.
+A collection of full-stack web applications developed as part of the SkillNexis Full Stack Development program.
 
-## Features
+## Projects
 
+### 1. E-Commerce Web Application
+**Status:** Planned
+
+Planned features:
+- Product listing and product details
 - User registration and login
-- JWT authentication
-- Create, view, edit, and delete tasks
-- Filter tasks by status
-- Upload and preview images
-- MongoDB database integration
-- React frontend with an Express.js backend
+- Shopping cart and order management
+- Admin dashboard for product management
+
+### 2. Social Media Feed Application
+**Status:** Planned
+
+Planned features:
+- User registration and login
+- Create and view posts
+- Like and comment on posts
+- Optional real-time updates
+
+### 3. Project Management Dashboard
+**Status:** In progress
+
+Features implemented:
+- User registration and login with JWT authentication
+- Create and manage projects
+- Project members and roles
+- Create, edit, delete, and assign tasks
+- Task status management and Kanban drag-and-drop
+- Image uploads and previews
+- MongoDB data persistence
 
 ## Technologies Used
 
-- Frontend: React, Vite, JavaScript, CSS
-- Backend: Node.js, Express.js
-- Database: MongoDB, Mongoose
-- Authentication: JSON Web Tokens (JWT)
-- Image Upload: Multer
+- **Frontend:** React, Vite, JavaScript, CSS
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB, Mongoose
+- **Authentication:** JSON Web Tokens (JWT)
+- **File Uploads:** Multer
 
 ## Project Structure
 
-- `frontend/` — React application
-- `models/` — MongoDB models
-- `middleware/` — Authentication middleware
-- `routes/` — Authentication, task, and upload routes
-- `uploads/` — Locally uploaded images
-- `server.js` — Backend entry point
-
-## Setup
-
-### 1. Install backend dependencies
-
-```bash
-npm install
+```text
+SkillNexis-Week4-Major-Projects/
+├── frontend/
+├── middleware/
+├── models/
+├── routes/
+├── server.js
+├── package.json
+└── README.md
 ```
 
-### 2. Configure environment variables
+## How to Run Project 3
 
-Create a `.env` file in the project root:
+### Prerequisites
+- Node.js and npm
+- MongoDB connection string
+
+### 1. Configure environment variables
+
+Create a `.env` file in the root directory:
 
 ```env
 PORT=5000
@@ -47,7 +71,13 @@ MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_secure_secret
 ```
 
-Replace the example values with your own credentials. Never commit `.env` to GitHub.
+Use your own values. Never upload `.env` or expose credentials publicly.
+
+### 2. Install backend dependencies
+
+```bash
+npm install
+```
 
 ### 3. Start the backend
 
@@ -55,9 +85,7 @@ Replace the example values with your own credentials. Never commit `.env` to Git
 npm run dev
 ```
 
-Backend URL: `http://localhost:5000`
-
-### 4. Install and start the frontend
+### 4. Start the frontend
 
 Open a second terminal:
 
@@ -67,26 +95,17 @@ npm install
 npm run dev
 ```
 
-Open the frontend URL printed in your terminal, usually `http://localhost:5173`.
-
-## API
-
-- `GET /` — API welcome message
-- `GET /api/health` — Health check
-- `POST /api/auth/register` — Register an account
-- `POST /api/auth/login` — Log in
-- `POST /api/uploads` — Upload an image
-
-See `routes/tasks.js` for the implemented task endpoints.
+Open the local frontend URL shown in the terminal.
 
 ## Learning Outcomes
 
+- Full-stack application development
 - REST API development
+- Authentication and authorization
 - MongoDB integration
-- User authentication
-- Task CRUD operations
-- Image upload handling
-- React and backend integration
+- Task and project management
+- File uploads and persistence
+- React frontend and Express backend integration
 
 ## Author
 
@@ -94,4 +113,4 @@ Meenakshi Muthakani
 
 ## Project Status
 
-SkillNexis Week 3 Full Stack Development Assignment.
+The Project Management Dashboard is the current implementation. The E-Commerce and Social Media applications will be added as they are developed.
