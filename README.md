@@ -5,13 +5,17 @@ A collection of full-stack web applications developed as part of the SkillNexis 
 ## Projects
 
 ### 1. E-Commerce Web Application
-**Status:** Planned
+**Status:** Implemented and tested locally
 
-Planned features:
-- Product listing and product details
-- User registration and login
-- Shopping cart and order management
+Features implemented:
+- User registration and login with JWT authentication
+- Product listing and product management
+- Shopping cart
+- Checkout and order placement
+- Customer order history
 - Admin dashboard for product management
+- Admin order management and order status updates
+- MongoDB data persistence
 
 ### 2. Social Media Feed Application
 **Status:** Planned
@@ -46,16 +50,18 @@ Features implemented:
 
 ```text
 SkillNexis-Week4-Major-Projects/
-├── frontend/
-├── middleware/
-├── models/
-├── routes/
-├── server.js
-├── package.json
-└── README.md
+├── ecommerce-app/
+│   ├── frontend/
+│   ├── middleware/
+│   ├── models/
+│   ├── routes/
+│   ├── server.js
+│   └── package.json
+├── README.md
+└── ...
 ```
 
-## How to Run Project 3
+## How to Run Project 1 — E-Commerce
 
 ### Prerequisites
 - Node.js and npm
@@ -63,10 +69,10 @@ SkillNexis-Week4-Major-Projects/
 
 ### 1. Configure environment variables
 
-Create a `.env` file in the root directory:
+Create a `.env` file inside `ecommerce-app/`:
 
 ```env
-PORT=5000
+PORT=5001
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_secure_secret
 ```
@@ -76,13 +82,14 @@ Use your own values. Never upload `.env` or expose credentials publicly.
 ### 2. Install backend dependencies
 
 ```bash
+cd ecommerce-app
 npm install
 ```
 
 ### 3. Start the backend
 
 ```bash
-npm run dev
+npm start
 ```
 
 ### 4. Start the frontend
@@ -90,7 +97,7 @@ npm run dev
 Open a second terminal:
 
 ```bash
-cd frontend
+cd "D:\project\full stack w4-capstone\ecommerce-app\frontend"
 npm install
 npm run dev
 ```
@@ -103,6 +110,7 @@ Open the local frontend URL shown in the terminal.
 - REST API development
 - Authentication and authorization
 - MongoDB integration
+- E-commerce and order management
 - Task and project management
 - File uploads and persistence
 - React frontend and Express backend integration
@@ -113,4 +121,4 @@ Meenakshi Muthakani
 
 ## Project Status
 
-The Project Management Dashboard is the current implementation. The E-Commerce and Social Media applications will be added as they are developed.
+The E-Commerce Web Application is implemented and tested locally. The Project Management Dashboard is in progress, and the Social Media Feed Application is planned.
