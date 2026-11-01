@@ -1,5 +1,5 @@
 
-const API_URL = "http://localhost:5001";
+const API_URL = "https://skillnexis-ecommerce-api.onrender.com";
 
 export async function apiRequest(path, options = {}, token = "") {
   const headers = { ...options.headers };
@@ -27,3 +27,4 @@ export async function apiRequest(path, options = {}, token = "") {
 }
 
 export { API_URL };
+
