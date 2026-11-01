@@ -6,7 +6,7 @@ A collection of three full-stack web applications developed as part of the Skill
 
 | Project | Live Demo | Status |
 |---|---|---|
-| ShopNexis — E-Commerce Application | [Open Website](https://skill-nexis-week4-major-projects-gc.vercel.app/) | Deployed |
+| | ShopNexis — E-Commerce Application | [Open Website](https://skill-nexis-week4-major-projects-gc5w-3ne48kdza-meenakshi8.vercel.app/) | Deployed |
 | SocialConnect — Social Media Application | [Open Website](https://socialconnect-lake.vercel.app/) | Deployed |
 | Project Management Dashboard | [Open Website](https://project-management-dashboard-kohl-phi.vercel.app/) | Deployed |
 
