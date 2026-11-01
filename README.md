@@ -133,13 +133,13 @@ Run the backend and frontend using the scripts defined in their respective `pack
 Add screenshots of your deployed applications to a `screenshots/` folder in this repository.
 
 ### ShopNexis
-![ShopNexis Screenshot](screenshots/shopnexis.png)
+![ShopNexis Screenshot](screenshots/ShopNexis-Ecommerce.png)
 
 ### SocialConnect
-![SocialConnect Screenshot](screenshots/socialconnect.png)
+![SocialConnect Screenshot](screenshots/SocialConnect-SocialMedia.png)
 
 ### Project Management Dashboard
-![Project Management Dashboard Screenshot](screenshots/project-management-dashboard.png)
+![Project Management Dashboard Screenshot](screenshots/ProjectManagement-Dashboard.png)
 
 *Replace these screenshot placeholders with actual screenshots saved using the filenames shown above.*
 
